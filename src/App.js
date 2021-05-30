@@ -26,7 +26,7 @@ import coronaImage from './images/image.png';
         const { data,country} = this.state;
         return (
             <div className={styles.container}>
-                <img src ={coronaImage} className={styles.image} alt="COVID IMAGE"/>
+                <image src ={coronaImage} className={styles.image} alt="COVID IMAGE"/>
                 <Cards data={data}/>
                 <CountryPicker handleCountryChange={this.handleCountryChange}/>
                 <Chart data={data} country={country}/>
